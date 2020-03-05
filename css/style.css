@@ -96,7 +96,7 @@ h3.bg p{margin:0;}
 	width:100%;
 }
 .section {
-	padding:40px 0px:
+	padding:40px 0px;
 }
 
 .section-condensed {
@@ -109,7 +109,7 @@ h3.bg p{margin:0;}
 
 .center-mg > h2 {
   color: black; 
-  float: left;
+  float: center;
   font-family: arial black;
   font-size: 43px;
   margin: 0;
@@ -182,7 +182,11 @@ h3.bg p{margin:0;}
   margin-right: 30px;
   margin-bottom: 0; }
   .header-info p span {
-    color: #71b100; }
+	color: #71b100; }
+
+.navbar-nav{
+	margin-left: 300px;
+}
 
 .navbar-nav > li > a {
   font-family: arial black !important;
@@ -2291,6 +2295,7 @@ h3.bg p{margin:0;}
 }
 .site-btm p {
 	margin-bottom:10px;
+	color: white;
 }
 .bottom-links {
 	padding:0px;
@@ -2307,12 +2312,26 @@ h3.bg p{margin:0;}
 	content:'|';
 	position:relative;
 	left:-8px;
-	color:#000;
+	color:white;
 }
 .bottom-links a {
-	color:#000;
+	color:white;
 }
-
+.bottom-links1 li {
+	display:inline-block;
+}
+.bottom-links1 li + li {
+	margin-left:12px;
+}
+.bottom-links1 li + li:before {
+	content:'|';
+	position:relative;
+	left:-8px;
+	color:black;
+}
+.bottom-links1 a {
+	color:black;
+}
 
 /*** Services Page
 ------------------------------------------------------------ ***/

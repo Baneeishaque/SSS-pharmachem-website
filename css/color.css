@@ -15,7 +15,7 @@
 /*** Text Color
 ----------------------------------------------------------------- ***/
 
-a, a:hover, .color-primary, .section-single .btn, .social-links li a:hover, .widget_contact li:before, .options li .fa, .bottom-links a:hover, .post-nav a:hover, .owl-controls-2 .owl-buttons > div:hover:before, .contact-list li a:hover, .blog-btm ul.options li a:hover, .widget_categories ul li:hover, .widget_categories ul li:hover a, .widget_tweets .feeds > li:before, .widget_tweets .feeds > li a:hover {
+a, a:hover, .color-primary, .section-single .btn, .social-links li a:hover, .options li .fa, .bottom-links a:hover, .post-nav a:hover, .owl-controls-2 .owl-buttons > div:hover:before, .contact-list li a:hover, .blog-btm ul.options li a:hover, .widget_categories ul li:hover, .widget_categories ul li:hover a, .widget_tweets .feeds > li:before, .widget_tweets .feeds > li a:hover {
 	color:#f78222;
 	font-weight: bold;
 }
